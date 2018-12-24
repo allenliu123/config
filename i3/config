@@ -196,10 +196,10 @@ bar {
 	#}
 }
 exec --no-startup-id ibus-daemon&nm-applet
-exec --no-startup-id mate-power-manager
+# exec --no-startup-id mate-power-manager
 exec --no-startup-id gnome-screensaver
 exec --no-startup-id feh --randomize --bg-fill ~/Pictures/background/*
 exec --no-startup-id xcompmgr -Ss -n -Cc -fF -I-10 -O-10 -D1 -t-3 -l-4 -r4
-#exec --no-startup-id polybar example 
+# exec --no-startup-id polybar example 
 
-#exec --no-startup-id $HOME/.config/polybar/launch.sh
+# exec --no-startup-id $HOME/.config/polybar/launch.sh
